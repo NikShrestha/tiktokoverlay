@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucky Prize Slider</title>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="slider-wrapper" class="slider-wrapper hidden">
+        <div class="title-bar">LUCKY WHEEL</div>
+        <div class="slider-container">
+            <div id="slider-track" class="slider-track">
+                <!-- Prize items will be added by JS -->
+            </div>
+        </div>
+        <div class="slider-selector"></div>
+    </div>
+
+    <audio id="start-sound" src="start.mp3" preload="auto"></audio>
+    <audio id="tick-sound" src="tick.mp3" preload="auto"></audio>
+    <audio id="win-sound" src="win.mp3" preload="auto"></audio>
+    
+    <script src="script.js"></script>
+</body>
+</html>
