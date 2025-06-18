@@ -1,17 +1,8 @@
+/* --- NEW CODE FOR TRANSPARENT OVERLAY --- */
 body {
-    background: 
-        radial-gradient(circle at 25% 25%, #ff6b6b 0%, transparent 50%),
-        radial-gradient(circle at 75% 75%, #4ecdc4 0%, transparent 50%),
-        linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
     margin: 0;
-    font-family: 'Fredoka One', cursive;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-    animation: backgroundShift 10s ease-in-out infinite alternate;
+    background: transparent;
+    overflow: hidden; /* Prevents scrollbars from ever appearing */
 }
 
 @keyframes backgroundShift {
